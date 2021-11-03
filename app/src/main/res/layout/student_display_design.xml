@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:layout_margin="20sp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:src="@drawable/person"
+        android:id="@+id/studentPicDisplayID"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/studentNameDisplayID"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Class"
+            android:textSize="20sp"
+            android:textColor="@color/primaryTextColor"
+            android:id="@+id/studentClassDisplayID"/>
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Section"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="20sp"
+            android:id="@+id/studentSectionDisplayID"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Roll"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:id="@+id/studentRollDisplayID"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:id="@+id/studentEmailDisplayID"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_marginLeft="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"
+        android:id="@+id/studentPhoneDisplayID"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call now"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/callStudentBTNid"
+        android:textColor="@color/primaryDarkColor"
+        android:background="@color/primaryLightColor"
+        android:layout_marginTop="10sp"/>
+
+
+
+</LinearLayout>

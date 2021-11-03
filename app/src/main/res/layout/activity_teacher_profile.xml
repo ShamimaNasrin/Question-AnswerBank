@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:layout_height="match_parent"
+    tools:context=".TeacherProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Profile"
+        android:textStyle="italic|bold"
+        android:textSize="40sp"
+        android:textColor="@color/primaryDarkColor"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400sp"
+            android:layout_height="400sp"
+            android:src="@drawable/person"
+            android:layout_marginBottom="30sp"
+            android:layout_gravity="center"
+            android:id="@+id/teacherProfileIVid"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/teacherNameProfileETid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Name"
+                android:layout_marginLeft="15sp"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textStyle="bold"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter your mail"
+                android:layout_marginLeft="20sp"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="25sp"
+                android:id="@+id/teacherEmailProfileTVid"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textStyle="bold"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="25sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter your phoneNo"
+                android:textSize="25sp"
+                android:layout_marginLeft="10sp"
+                android:id="@+id/teacherPhoneProfileETid"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:textColor="@color/primaryDarkColor"
+            android:background="@color/primaryLightColor"
+            android:id="@+id/teacherProfileUpdateBTNid"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

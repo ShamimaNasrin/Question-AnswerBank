@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/questionCourseNameID"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/questionYearID"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the icon and upload the file"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_margin="20sp"
+        android:textColor="@color/primaryDarkColor"/>
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/questionpdf"
+        android:layout_gravity="center"
+        android:id="@+id/questionPdfIVid"/>
+
+</LinearLayout>

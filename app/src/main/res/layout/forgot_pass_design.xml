@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your email here"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/primaryDarkColor"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type your mail"
+        android:textSize="25sp"
+        android:textColor="@color/primaryTextColor"
+        android:gravity="center"
+        android:id="@+id/forgotEmailETid"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/primaryLightColor"
+        android:textColor="@color/primaryDarkColor"
+        android:id="@+id/forgotButtonID"/>
+
+</LinearLayout>

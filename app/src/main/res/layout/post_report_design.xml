@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="20sp"
+        android:text="Tell your problem to developer"
+        android:id="@+id/notice_subject_etID"/>
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportDetailsETid"
+        android:lines="5"
+        android:hint="Type here..."
+        android:textSize="20sp"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/reportDateID"/>
+
+    <Button
+        android:id="@+id/reportSubmitBTNid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"
+        android:background="@color/primaryLightColor"/>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/answerID"
+            android:title="Contribute Answer"
+            android:iconTint="@color/primaryColor"
+            android:icon="@drawable/answer"
+            />
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/reportID"
+                android:title="Report"
+                android:iconTint="@color/primaryColor"
+                android:icon="@drawable/report"
+                />
+            <item
+                android:id="@+id/helpID"
+                android:title="Help"
+                android:iconTint="@color/primaryColor"
+                android:icon="@drawable/help"
+                />
+        </menu>
+    </item>
+    <item android:title="Feedback">
+        <menu>
+            <item
+                android:id="@+id/AboutID"
+                android:iconTint="@color/primaryColor"
+                android:title="About"
+                android:icon="@drawable/about"
+                />
+            <item
+                android:id="@+id/thanksID"
+                android:title="Thanks and Credits"
+                android:iconTint="@color/primaryColor"
+                android:icon="@drawable/thanks"
+                />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logoutID"
+                android:title="Logout"
+                android:iconTint="@color/primaryColor"
+                android:icon="@drawable/logout"
+                />
+        </menu>
+    </item>
+
+
+
+</menu>

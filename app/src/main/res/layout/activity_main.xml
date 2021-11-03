@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="30sp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:src="@drawable/login_wallpaper"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Here..."
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="@color/primaryDarkColor"
+        android:textStyle="italic|bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:drawableLeft="@drawable/email"
+            android:id="@+id/emailET"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:drawableLeft="@drawable/password"
+            android:inputType="textPassword"
+            android:id="@+id/passwordET"/>
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroupID"
+            android:layout_margin="25sp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login as student"
+                android:buttonTint="@color/primaryDarkColor"
+                android:id="@+id/studentLoginID"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login as teacher"
+                android:id="@+id/teacherLoginID"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@color/primaryLightColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:id="@+id/loginBtnID"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have an acount?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/registerTVid"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot password"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"
+            android:id="@+id/forgotPassTVid"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

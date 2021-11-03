@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="app_name">ABC High School</string>
+    <string name="notify">*** For updating class,section,roll and email kindly contact with authority</string>
+    <string name="help_Q1">In the Dashboard there is a button named Question.Tap on that button and another activity will come out.There a list of questions will show.</string>
+    <string name="help_Q2">On the questions activity there is a button where mentioned contribute questions.Tap there and verify your acount.If verification successfull then submit all the details of the question and attach the pdf file.It will take few times to upload.</string>
+    <string name="help_Q3">On the Dashboard there are teachers button.Click on the button and a list of teachers will show who are registered</string>
+    <string name="abount_Q1">DIU Q/A is a mobile application which is used to specially the previous question for the students.Basically the main goal of this application is to enrich the online education system</string>
+
+    <style name="about_Q2"></style>
+
+    <string-array name="classes">
+        <item>Select Class</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

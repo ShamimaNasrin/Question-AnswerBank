@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ThanksActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanks and Credits"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="@color/primaryDarkColor"
+        android:gravity="center" />
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/shamima"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/primaryDarkColor"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shamima Nasrin"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="30sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Developer"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc in CSE from DIU"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/niloy"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/primaryDarkColor"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Minhajul Islam"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="30sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Developer"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc in CSE from DIU"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/tazma"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20sp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/primaryDarkColor"
+                android:id="@+id/teacherIVid"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sharmin Tazma"
+                    android:layout_marginLeft="20sp"
+                    android:id="@+id/teacherNameTVID"
+                    android:textSize="30sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Developer"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:id="@+id/teacherNumberTVID"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B.Sc in CSE from DIU"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@color/primaryDarkColor"
+                    android:id="@+id/teacherEmailTVID"
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".helpActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FaQ"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/primaryDarkColor"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> How to find out previous question?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_Q1"
+        android:padding="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> How to contribute question?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_Q2"
+        android:padding="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> How to find teachers?"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_Q3"
+        android:padding="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25sp"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/subjectNoticeID"/>
+
+    <TextView
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeDetailsTVid"
+        android:lines="5"
+        android:text="Enter full details"
+        android:textSize="20sp"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"
+        android:background="@color/primaryLightColor"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/doneBTNid"/>
+
+</LinearLayout>

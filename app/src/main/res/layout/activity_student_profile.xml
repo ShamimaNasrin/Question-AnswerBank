@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".StudentProfileActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryDarkColor"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"/>
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/person"
+        android:layout_gravity="center"
+        android:id="@+id/profileIVid"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/profileNameETid"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your class"
+            android:textSize="25sp"
+            android:textColor="@color/primaryTextColor"
+            android:textStyle="italic"
+            android:id="@+id/profileClassTVidf"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Section:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your section"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/profileSectionETid"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your roll"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/profileRollTVid"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your mail"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/profileEmailETid"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryDarkColor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your phoneNo"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:id="@+id/profilePhoneTVid"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:textColor="#E41010"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update profile"
+            android:textAllCaps="false"
+            android:layout_alignParentBottom="true"
+            android:background="@color/primaryLightColor"
+            android:textColor="@color/primaryDarkColor"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:id="@+id/profileUpdateBTNid"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
